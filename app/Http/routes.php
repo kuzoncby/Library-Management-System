@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.book');
+});
+
+Route::get('/book', function () {
+    return view('home.book');
+});
+
+Route::get('/user', function () {
+    return view('home.user');
 });
